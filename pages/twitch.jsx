@@ -51,7 +51,7 @@ const twitch = () => {
           </a>
 
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-md shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 md:col-span-1 shadow-sm shadow-gray-500 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>

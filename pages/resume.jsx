@@ -20,18 +20,11 @@ const resume = () => {
           <h2 className='text-center'>Jordy Leysen</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='www.linkedin.com/in/jordy-leysen-a774b3a5'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
-            </a>
-            <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
             </a>
           </div>
         </div>

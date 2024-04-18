@@ -46,7 +46,7 @@ const [navBg, setNavBg] = useState("rgba(30, 54, 89, .9)");
   }, []);
 
   return (
-    <div style={{ backgroundColor: `${navBg}` }} className={` p-5 w-[95%] left-[2.5%] mt-5 rounded-full fixed h-20 shadow-md z-[100] ease-in-out duration-300"`}>
+    <div style={{ backgroundColor: `${navBg}` }} className={` p-5 w-[95%] left-[2.5%] mt-5 rounded-full fixed h-20 shadow-sm z-[100] ease-in-out duration-300"`}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <a>
@@ -93,7 +93,7 @@ const [navBg, setNavBg] = useState("rgba(30, 54, 89, .9)");
                   <span className="text-sky-700 font-medium text-xl"> LeyTech</span>
                 </a>
               </Link>
-              <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+              <div onClick={handleNav} className="rounded-full shadow-sm shadow-gray-500 p-3 cursor-pointer">
                 <AiOutlineClose />
               </div>
             </div>
@@ -137,23 +137,18 @@ const [navBg, setNavBg] = useState("rgba(30, 54, 89, .9)");
             <div className="pt-40">
               <p className="uppercase tracking-widest text-sky-700">Let&#39;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a href="https://www.linkedin.com/in/clint-briley-50056920a/" target="_blank" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <a href="www.linkedin.com/in/jordy-leysen-a774b3a5" target="_blank" rel="noreferrer">
+                  <div className="rounded-full shadow-sm shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
-                <a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                </a>
                 <Link href="/#contact">
-                  <div onClick={() => setNav(!nav)} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div onClick={() => setNav(!nav)} className="rounded-full shadow-sm shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </Link>
                 <Link href="/resume">
-                  <div onClick={() => setNav(!nav)} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div onClick={() => setNav(!nav)} className="rounded-full shadow-sm shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>
                 </Link>
