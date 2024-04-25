@@ -9,7 +9,7 @@ import BG from "../public/assets/bg.png";
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div style={{ backgroundImage: `url(${BG?.src})` }} className="absolute w-screen h-screen top-0 left-0 -z-10 opacity-30"></div>
+      <div style={{ backgroundImage: `url(${BG?.src})` }} className="absolute w-screen h-screen top-0 left-0 -z-10 opacity-30 bg-no-repeat bg-center bg-cover"></div>
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm  tracking-widest text-slay-600">LET&#39;S BUILD SOMETHING TOGETHER</p>
@@ -19,7 +19,7 @@ const Main = () => {
           <h1 className="py-2 text-gray-300">A Front-End Web Developer</h1>
           <p className="py-4 text-slay-600 sm :max-w-[70%] m-auto">I’m focused on building responsive front-end web applications integrating back-end technologies.</p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="www.linkedin.com/in/jordy-leysen-a774b3a5" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/jordy-leysen-a774b3a5" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-sm shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>

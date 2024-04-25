@@ -46,11 +46,11 @@ const [navBg, setNavBg] = useState("rgba(30, 54, 89, .9)");
   }, []);
 
   return (
-    <div style={{ backgroundColor: `${navBg}` }} className={` p-5 w-[95%] left-[2.5%] mt-5 rounded-full fixed h-20 shadow-sm z-[100] ease-in-out duration-300"`}>
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+    <div style={{ backgroundColor: `${navBg}` }} className={` p-5 w-[95%] left-[2.5%] mt-5 rounded-full fixed h-10 md:h-20 shadow-sm z-[100] ease-in-out duration-300 max-w-[1240px]"`}>
+      <div className="flex justify-between items-center w-full h-full px-2">
         <Link href="/">
           <a>
-            <span className="font-medium text-2xl"> LeyTech</span>
+            <span className="font-medium text-lg md:text-2xl"> LeyTech</span>
           </a>
         </Link>
         <div>
@@ -85,7 +85,7 @@ const [navBg, setNavBg] = useState("rgba(30, 54, 89, .9)");
       {/* Overlay */}
       <div className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-500" : ""}>
         {/* Side Drawer Menu */}
-        <div className={nav ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500" : "fixed left-[-100%] w-0 top-0 p-10 ease-in duration-500"}>
+        <div className={nav ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#0F0C18] p-10 ease-in duration-500" : "fixed left-[-100%] w-0 top-0 p-10 bg-[#0F0C18] ease-in duration-500"}>
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
@@ -137,7 +137,7 @@ const [navBg, setNavBg] = useState("rgba(30, 54, 89, .9)");
             <div className="pt-40">
               <p className="uppercase tracking-widest text-sky-700">Let&#39;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a href="www.linkedin.com/in/jordy-leysen-a774b3a5" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/jordy-leysen-a774b3a5" target="_blank" rel="noreferrer">
                   <div className="rounded-full shadow-sm shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>

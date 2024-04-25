@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+import haachtImg from '../public/assets/projects/haacht.jpeg';
+import lizyImg from '../public/assets/projects/lizy.jpeg';
+import gafasImg from '../public/assets/projects/gafas.jpeg';
 import cryptoImg from '../public/assets/projects/crypto.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
+import finvictum from '../public/assets/projects/app-finvictum.jpeg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 
@@ -14,33 +17,33 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-sky-700'>
           Projects
         </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
+        <h2 className='py-4'>Spotlight</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Brewery'
+            backgroundImg={haachtImg}
+            projectUrl='/brewery'
+            tech='Gatsby JS / React JS'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            title='Car dealer'
+            backgroundImg={lizyImg}
+            projectUrl='/cardealer'
+            tech='Next JS / React JS'
 
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
+            title='Agency'
+            backgroundImg={gafasImg}
+            projectUrl='/agency'
+            tech='Wordpress'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
+            title='Finvictum start-up'
+            backgroundImg={finvictum}
+            projectUrl='/finvictum'
+            tech='React Native / React JS'
 
           />
         </div>

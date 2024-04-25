@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='www.linkedin.com/in/jordy-leysen-a774b3a5'
+                    href='https://www.linkedin.com/in/jordy-leysen-a774b3a5'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -46,16 +46,6 @@ const Contact = () => {
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a
-                    href='https://github.com/fireclint'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-sm shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaGithub />
-                    </div>
-                  </a>
-
                   <div className='rounded-full shadow-sm shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
