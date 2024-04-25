@@ -21,7 +21,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I'm one of the founders od the start-up Finvitcum. Finvictum is a A dedicated investor relations social media platform for listed companies to inform, communicate and engage with investors
+            I`m one of the founders od the start-up Finvitcum. Finvictum is a A dedicated investor relations social media platform for listed companies to inform, communicate and engage with investors
             and intermediaries.
           </p>
           <p>
