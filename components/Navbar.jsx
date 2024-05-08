@@ -88,9 +88,9 @@ const [navBg, setNavBg] = useState("rgba(30, 54, 89, .9)");
 
       {/* Mobile Menu */}
       {/* Overlay */}
-      <div style={{height: "100dvh"}} className={nav ? "md:hidden fixed left-0 top-0 w-full bg-black/70 ease-in duration-300" : ""}>
+      <div style={{height: nav?"100dvh":"auto"}} className={nav ? "md:hidden fixed left-0 top-0 w-full bg-black/70 ease-in duration-300" : ""}>
         {/* Side Drawer Menu */}
-        <div style={{height: "100dvh"}} className={nav ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-[#0F0C18] p-10 ease-in duration-300" : "fixed left-[-100%] w-0 top-0 p-10 bg-[#0F0C18] ease-in duration-300"}>
+        <div style={{height: nav?"100dvh":"auto"}} className={nav ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-[#0F0C18] p-10 ease-in duration-300" : "fixed left-[-100%] w-0 top-0 p-10 bg-[#0F0C18] ease-in duration-300"}>
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
