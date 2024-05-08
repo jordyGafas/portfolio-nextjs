@@ -37,8 +37,10 @@ const Navbar = () => {
   useEffect(() => {
     if (nav) {
       document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "initial";
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
     }
   }, [nav]);
 
@@ -145,7 +147,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-12">
               <p className="uppercase tracking-widest text-sky-700">Let&#39;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a href="https://www.linkedin.com/in/jordy-leysen-a774b3a5" target="_blank" rel="noreferrer">
