@@ -12,7 +12,7 @@ const resume = () => {
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
-        <iframe src={'/profile.pdf'} style={{width:"100%", height:"calc(90dvh - 100px)"}} frameBorder="0"></iframe>
+        <iframe src={'/resume.pdf'} style={{width:"100%", height:"calc(90dvh - 100px)"}} frameBorder="0"></iframe>
       </div>
     </>
   );
