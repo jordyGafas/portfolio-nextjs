@@ -26,7 +26,7 @@ const Projects = () => {
             tech='Gatsby JS / React JS'
           />
           <ProjectItem
-            title='Car dealer - By Gafas'
+            title='Car dealer'
             backgroundImg={lizyImg}
             projectUrl='/cardealer'
             tech='Next JS / React JS'

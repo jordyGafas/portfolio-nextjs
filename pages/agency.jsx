@@ -17,7 +17,7 @@ const twitch = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-400 z-10 p-2'>
-          <h2 className='py-2'>Agency website</h2>
+          <h2 className='py-2'>Agency website - By Gafas</h2>
           <h3>Wordpress / php / css / JS</h3>
         </div>
       </div>

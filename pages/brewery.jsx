@@ -11,7 +11,7 @@ const property = () => {
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image className="absolute z-1" layout="fill" objectFit="cover" src={haachtImg} alt="/" />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-400 z-10 p-2">
-          <h2 className="py-2">Brewery</h2>
+          <h2 className="py-2">Brewery - By Upthrust</h2>
           <h3>Gatsby JS / React / Contentful cms</h3>
         </div>
       </div>
