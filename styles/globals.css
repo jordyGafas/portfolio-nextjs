@@ -12,6 +12,7 @@ html {
 
 @layer base {
   body {
+    overflow-x: hidden;
     @apply bg-[#0F0C18] antialiased text-slate-200 px-2
   }
 
