@@ -9,8 +9,11 @@ import BG from "../public/assets/bg.png";
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div style={{ backgroundImage: `url(${BG?.src})` }} className="absolute w-screen h-screen top-0 left-0 -z-10 opacity-30 bg-no-repeat bg-center bg-cover"></div>
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-60">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center relative z-10">
         <div>
           <p className="uppercase text-sm  tracking-widest text-slay-600">LET&#39;S BUILD SOMETHING TOGETHER</p>
           <h1 className="py-4 text-gray-300">
