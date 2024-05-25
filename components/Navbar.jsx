@@ -160,11 +160,6 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
-                  <div onClick={() => setNav(!nav)} className="rounded-full shadow-sm shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
               </div>
             </div>
           </div>
