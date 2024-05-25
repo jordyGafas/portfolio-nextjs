@@ -9,7 +9,7 @@ import BG from "../public/assets/bg.png";
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
-      <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-60">
+      <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-60 left-0 top-0">
         <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
