@@ -20,7 +20,7 @@ const Main = () => {
             Hi, I&#39;m <span className="text-sky-700"> Jordy</span>
           </h1>
           <h1 className="py-2 text-gray-300">A Front-End Web Developer</h1>
-          <p className="py-4 text-slay-600 sm :max-w-[70%] m-auto">I’m focused on building responsive front-end web applications integrating back-end technologies.</p>
+          <p className="py-4 text-slay-600 sm :max-w-[70%] m-auto">I’m focused on building responsive front-end web applications integrating back-end technologies. Available for freelance & consultency.</p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a href="https://www.linkedin.com/in/jordy-leysen-a774b3a5" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-sm shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
