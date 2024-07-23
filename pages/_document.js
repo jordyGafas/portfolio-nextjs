@@ -36,15 +36,18 @@ export default function Document() {
                 page_refresh_confirmation_buttons: false,
                 website_name: "Leytech",
               });
-            })`
+            })`,
           }}
         ></script>
         <Main />
         <NextScript />
+        <footer>
+          <span>Copyright LeyTech 2024</span>
+          <a href="" id="open_preferences_center">
+            Update cookies preferences
+          </a>
+        </footer>
       </body>
-      <a href="#" id="open_preferences_center">
-        Update cookies preferences
-      </a>
     </Html>
   );
 }

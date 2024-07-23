@@ -44,6 +44,16 @@ html {
 
 }
 
+footer{
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
 /*Cookieconsent banner*/
 .cc-nb-reject{
  background-color:#dcdae5 !important; 
