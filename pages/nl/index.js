@@ -22,6 +22,7 @@ export default function Home() {
         <title>Jordy Leysen | Front-End Developer | Website bouwer</title>
         <meta name="description" content="Ik ben een front-end webontwikkelaar die zich specialiseert in het creëren van digitale ervaringen, webshops en websites voor KMO's en bedrijven." />
         <link rel="icon" href="/fav.jpeg" />
+        <link rel="alternate" hreflang="en" href="https://www.leytech.be"/>
       </Head>
       <Main upper={"LATEN WE SAMEN IETS BOUWEN"} title={"Hallo, ik ben "} title2={" een webontwikkelaar"} name={"Jordy"} subTitle={"Ik richt me op het bouwen van responsieve front-end webapplicaties met integratie van back-end technologieën, professionele website, kmo's en bedrijven. Beschikbaar voor freelance werk en consultancy."} />
       <About title='Over mij' subtitle={'Wie ben ik'} content={AboutContentHtml} urlLabel={"Bekijk mijn laatste projecten"}/>
