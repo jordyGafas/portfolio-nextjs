@@ -54,6 +54,15 @@ footer{
   padding: 12px;
 }
 
+@media (max-width: 780px) {
+  footer {
+    max-width: 95%;
+    flex-direction: column;
+    text-align: center; /* Optional: Center align text for better appearance */
+    gap: 24px;
+  }
+}
+
 /*Cookieconsent banner*/
 .cc-nb-reject{
  background-color:#dcdae5 !important; 

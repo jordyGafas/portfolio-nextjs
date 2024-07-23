@@ -38,7 +38,9 @@ const Contact = () => {
                     </div>
                   </a>
                   <div className="rounded-full shadow-sm shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
+                    <a href="&#109;a&#105;l&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#64;&#108;&#101;&#121;&#116;&#101;&#99;&#104;&#46;&#98;&#101;">
+                      <AiOutlineMail />
+                    </a>
                   </div>
                   <Link href="/resume">
                     <a>

@@ -42,7 +42,9 @@ export default function Document() {
         <Main />
         <NextScript />
         <footer>
-          <span>Copyright LeyTech 2024</span>
+          <span>Copyright LeyTech 2024 - <a href="&#109;a&#105;l&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#64;&#108;&#101;&#121;&#116;&#101;&#99;&#104;&#46;&#98;&#101;">
+                      hello@leytech.be
+                    </a></span>
           <a href="" id="open_preferences_center">
             Update cookies preferences
           </a>
