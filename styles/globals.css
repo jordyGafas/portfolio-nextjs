@@ -11,6 +11,7 @@ html {
   overflow-x: hidden;
 }
 
+
 @layer base {
   body {
     overflow-x: hidden;
@@ -41,4 +42,9 @@ html {
     color: #0F0C18
   }
 
+}
+
+/*Cookieconsent banner*/
+.cc-nb-reject{
+ background-color:#dcdae5 !important; 
 }
