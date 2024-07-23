@@ -15,6 +15,7 @@ export default function Document() {
             gtag('config', 'G-0SPZNYFBFK');`
             }
         </script>
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="dfb32996-58c8-4385-87eb-950d85a3cd92" data-blockingmode="auto" type="text/javascript"></script>
       </Head>
       <body>
         <Main />
