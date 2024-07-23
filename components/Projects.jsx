@@ -10,7 +10,7 @@ import finvictum from '../public/assets/projects/app-finvictum.jpeg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 
-const Projects = () => {
+const Projects = ({lang = ''}) => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
@@ -22,28 +22,30 @@ const Projects = () => {
           <ProjectItem
             title='Brewery - By Upthrust'
             backgroundImg={haachtImg}
-            projectUrl='/brewery'
+            projectUrl={`${lang}/brewery`}
             tech='Gatsby JS / React JS'
+            lang={lang}
           />
           <ProjectItem
             title='Car dealer'
             backgroundImg={lizyImg}
-            projectUrl='/cardealer'
+            projectUrl={`${lang}/cardealer`}
             tech='Next JS / React JS'
-
+            lang={lang}
           />
           <ProjectItem
              title='Agency - By Gafas'
             backgroundImg={gafasImg}
-            projectUrl='/agency'
+            projectUrl={`${lang}/agency`}
             tech='Wordpress'
-
+            lang={lang}
           />
           <ProjectItem
             title='Finvictum start-up'
             backgroundImg={finvictum}
-            projectUrl='/finvictum'
+            projectUrl={`${lang}/finvictum`}
             tech='React Native / React JS'
+            lang={lang}
           />
         </div>
       </div>
