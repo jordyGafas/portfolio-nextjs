@@ -11,7 +11,7 @@ const About = ({ title, subtitle, content, urlLabel }) => {
           <p className="uppercase text-xl tracking-widest text-sky-600">{title}</p>
           <h2 className="py-4">{subtitle}</h2>
           <p className="py-2 text-gray-300" dangerouslySetInnerHTML={{ __html: content }}></p>
-          <Link href="/#projects">
+          <Link href="#projects">
             <p className="py-2 text-gray-300 underline cursor-pointer">{urlLabel}</p>
           </Link>
         </div>
