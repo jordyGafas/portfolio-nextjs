@@ -45,7 +45,8 @@ export default function Document() {
         <NextScript />
         <footer>
           <span>
-            Copyright LeyTech 2024 - <a href="&#109;a&#105;l&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#64;&#108;&#101;&#121;&#116;&#101;&#99;&#104;&#46;&#98;&#101;">hello@leytech.be</a>
+            Copyright LeyTech 2024 - <a href="&#106;&#111;&#114;&#100;&#105;&#46;&#108;&#101;&#121;&#115;&#101;&#110;&#64;&#108;&#101;&#121;&#116;&#101;&#99;&#104;&#46;&#98;&#101;
+">jordy.leysen@leytech.be</a>
           </span>
           <a href="" id="open_preferences_center">
             Update cookies preferences
